@@ -1,14 +1,14 @@
-# PayPal REST API Specifications
+# PayPal REST API
 
-This repository contains the specification files for [PayPal REST APIs](https://developer.paypal.com/api/rest/).
+This repository contains the  files for [PayPal REST APIs](https://developer.paypal.com/api/rest/).
 
 You can try our REST APIs in Postman without a PayPal Developer account. Learn more in our [Postman guide](https://developer.paypal.com/api/rest/postman/).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/19024122-92a85d0e-51e7-47da-9f83-c45dcb1cdf24?action=collection%2Ffork&collection-url=entityId%3D19024122-92a85d0e-51e7-47da-9f83-c45dcb1cdf24%26entityType%3Dcollection%26workspaceId%3D345300e6-346e-42e0-aed1-53717919aef0)
 
-## Steps to generate code from the specification
+## generate code 
 
-> _Note: Spec file used: openapi/checkout_orders_v2.json_
+> _Note: file used: openapi/checkout_orders_v2.json_
 
 ### Java
  1. `npm run codegen-java -- openapi/checkout_orders_v2.json --artifact-id orders`
@@ -40,11 +40,11 @@ Scripts available in @paypal/paypal-rest-api-specifications@1.0.0 via `npm run-s
     openapi-generator-cli generate -g typescript-node -o generated/typescript-node -i
 ```
 
-## Available specifications
+
 
 ### OpenAPI 3.0.3
 
-The [OpenAPI](https://swagger.io/specification/v3/) specification is a programming language agnostic standard that lets providers describe the interface of their HTTP APIs. This allows both humans and machines to discover the capabilities of an API without needing to first read documentation or understand the implementation.
+The [OpenAPI](https://swagger.io/specification/v3/) is a programming language agnostic standard that lets providers describe the interface of their HTTP APIs. This allows both humans and machines to discover the capabilities of an API without needing to first read documentation
 
 | API Name              | Version | Links                                                                                                                                                  |
 |-----------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
