@@ -1,4 +1,4 @@
-# PayPal REST API Specifications
+# PayPal REST API
 
 This repository contains the specification files for [PayPal REST APIs](https://developer.paypal.com/api/rest/).
 
